@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "name": "my.demo.app",
+  "private": true,
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-dotnet-assembly-info": "0.1.12",
+    "child_process": "1.0.2"
+  },
+  "dependencies": {}
+}
