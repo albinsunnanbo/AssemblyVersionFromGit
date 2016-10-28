@@ -8,7 +8,7 @@ namespace AssemblyVersionFromGit
     {
         /// <summary>
         /// Formats the assembly version from the specified assembly.
-        /// Requires that the AssemblyInfo.cs file contains the AssemblyInformationalVersion attribute.
+        /// Requires that <paramref name="assembly"/> contains an AssemblyInformationalVersion attribute.
         /// </summary>
         /// <param name="assembly"></param>
         /// <returns></returns>
