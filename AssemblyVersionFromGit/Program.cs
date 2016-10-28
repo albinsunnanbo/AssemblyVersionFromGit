@@ -10,6 +10,11 @@ namespace AssemblyVersionFromGit
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Version:");
+            Console.WriteLine(typeof(Program).Assembly.FormatApplicationVersion());
+            Console.WriteLine();
+            Console.WriteLine("Done, press any key to continue");
+            Console.ReadKey();
         }
     }
 }
